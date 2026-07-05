@@ -23,6 +23,7 @@ main{
     padding-bottom: 10px;
     line-height: ;
     color: rgb(0, 0, 203);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .login-body{
     border: 2px solid blueviolet;
@@ -70,6 +71,7 @@ main{
 .other-options a{
     text-decoration: none;
     color: rgb(238, 3, 3);
+    font-weight: bold;
 }
 .other-options a:hover{
     text-decoration: underline;
@@ -79,9 +81,9 @@ main{
     display: flex;
     align-items: center;
     gap: 5px;
-    
+    font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(0, 0, 98);
+    color: rgb(2, 2, 116);
 }
 
 .other-options label input{
