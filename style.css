@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    width: 400px;
+    
+    padding: px;
+    
+}
+.title{
+    padding: 10px 0px;
+}
+.title h3, h1, p {
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: ;
+    color: rgb(0, 0, 203);
+}
+.login-body{
+    border: 2px solid blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    
+}
+.login-box label{
+    display: block;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 124);
+    font-weight: bold;
+}
+
+.login-box input{
+    border: 2px solid rgb(134, 132, 132);
+    border-radius: 8px;
+    padding: 0px 0px;
+    width: 100%;
+    height: 30px;
+    
+}
+
+.login-box input::placeholder{
+    padding: 0 10px;
+}
+
+.email-section{
+    padding-bottom: 20px;
+}
+
+.other-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+   
+}
+.other-options a{
+    text-decoration: none;
+    color: rgb(238, 3, 3);
+}
+.other-options a:hover{
+    text-decoration: underline;
+}
+.checkbox{
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 98);
+}
+
+.other-options label input{
+    
+}
+.checkbox input{
+   
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox input:hover{
+    cursor: pointer;
+}
+
+.signin-btn button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.signin-btn button:hover{
+    cursor: pointer;
+}
+.signup-section p{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.signup-section a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.signup-section a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
